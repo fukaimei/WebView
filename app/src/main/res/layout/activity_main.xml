@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_web_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试打开普通网页" />
+
+    <Button
+        android:id="@+id/bt_web_url2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试打开电商网页" />
+
+    <Button
+        android:id="@+id/bt_web_url3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试打开视频网页" />
+
+    <Button
+        android:id="@+id/bt_web_url4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试以网页的方式播放视频" />
+
+</LinearLayout>
